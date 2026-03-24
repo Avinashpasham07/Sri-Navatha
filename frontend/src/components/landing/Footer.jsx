@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
     return (
@@ -10,10 +11,8 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
                     {/* Brand Section */}
                     <div className="lg:col-span-1">
-                        <div className="flex items-center gap-3 mb-8">
-                            <div className="w-10 h-10 bg-amber-600 rounded flex items-center justify-center shadow-lg">
-                                <span className="text-white font-black text-xl italic">S</span>
-                            </div>
+                        <div className="flex items-center gap-4 mb-8">
+                            <img src={logo} alt="Sri Navatha Logo" className="w-12 h-12 object-contain" />
                             <div>
                                 <div className="text-sm font-black uppercase tracking-tight text-white leading-none">Sri Navatha</div>
                                 <div className="text-amber-500 text-[9px] font-bold uppercase tracking-[0.3em] mt-0.5">Interior Design</div>

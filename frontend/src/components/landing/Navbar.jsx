@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -25,11 +26,9 @@ const Navbar = () => {
         <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${scrolled ? 'py-4 bg-white/80 backdrop-blur-xl border-b border-zinc-100 shadow-sm' : 'py-8 bg-transparent'}`}>
             <div className="max-w-7xl mx-auto px-8 md:px-20 flex items-center justify-between">
                 {/* Logo Section */}
-                <div className="flex items-center gap-3 group cursor-pointer">
-                    <div className="w-10 h-10 bg-amber-600 rounded flex items-center justify-center shadow-lg shadow-amber-600/20 group-hover:bg-amber-500 transition-colors">
-                        <span className="text-white font-black text-xl italic">S</span>
-                    </div>
-                    <div>
+                <div className="flex items-center gap-4 group cursor-pointer">
+                    <img src={logo} alt="Sri Navatha Logo" className="w-14 h-14 object-contain" />
+                    <div className="hidden sm:block">
                         <div className={`text-sm font-black uppercase tracking-tight transition-colors ${scrolled ? 'text-zinc-900' : 'text-white'}`}>Sri Navatha</div>
                         <div className="text-amber-500 text-[9px] font-bold uppercase tracking-[0.3em] -mt-1">Interior Design</div>
                     </div>
