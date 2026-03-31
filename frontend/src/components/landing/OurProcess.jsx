@@ -17,7 +17,7 @@ const icons = {
             <path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-5l-3 3v-3z" />
         </svg>
     ),
-    planning: (
+    SELECTION: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
             <rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M9 21V9" />
         </svg>
@@ -27,7 +27,7 @@ const icons = {
             <path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" /><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
         </svg>
     ),
-    execution: (
+    DELIVERY: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
             <path d="M9 12l2 2 4-4" /><circle cx="12" cy="12" r="10" />
         </svg>
@@ -35,10 +35,10 @@ const icons = {
 };
 
 const steps = [
-    { n: '01', key: 'consultation', t: 'Consultation', d: 'Personalized interior design consultation to understand your unique aspirations, style preferences, and project budget.' },
-    { n: '02', key: 'planning', t: 'Planning', d: 'Bespoke design solutions tailored to transform your dream into a detailed, realistic action plan with clear timelines.' },
-    { n: '03', key: 'sourcing', t: 'Sourcing', d: 'Selecting premium materials — Eshkha Marble sheets, fittings and finishes — for timeless elegance and long-term durability.' },
-    { n: '04', key: 'execution', t: 'Execution', d: 'On-time delivery and flawless installation by our certified professional team. We don\'t leave until every detail is perfect.' },
+    { n: '01', key: 'consultation', t: 'Consultation', d: 'Understand your material requirements, space type, and budget. We guide you in selecting the right marble or sheet solutions.' },
+    { n: '02', key: 'SELECTION', t: 'SELECTION', d: 'Explore our wide range of premium marble and sheet materials, textures, and finishes tailored to your project needs.' },
+    { n: '03', key: 'sourcing', t: 'Sourcing', d: 'We source high-quality materials directly from trusted quarries and suppliers to ensure durability and consistency.' },
+    { n: '04', key: 'DELIVERY', t: 'DELIVERY', d: 'Timely delivery and support for installation, ensuring a smooth and hassle-free experience for your project.' },
 ];
 
 const OurProcess = () => {
@@ -57,7 +57,7 @@ const OurProcess = () => {
                             Our Signature<br />Process
                         </h2>
                         <p className="text-zinc-100 text-base font-light leading-relaxed max-w-sm">
-                            A proven 4-step process that takes your vision from a blank canvas to a beautifully finished space - on time, every time.
+                            A streamlined 4-step process to help you choose, source, and receive premium marble and sheet materials for your project.
                         </p>
                     </div>
                 </div>

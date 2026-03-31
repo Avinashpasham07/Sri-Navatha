@@ -75,10 +75,10 @@ const AboutSection = () => {
 
                         <div className="space-y-6 mb-12">
                             <p className="text-zinc-800 text-lg font-light leading-relaxed border-l border-amber-600/30 pl-8">
-                                Sri Navatha Interior Design is Andhra Pradesh's premier destination for high-end residential and commercial transformations.
+                                Sri Navatha is a trusted supplier of premium marble and sheet materials across Andhra Pradesh, serving both residential and commercial projects.
                             </p>
                             <p className="text-zinc-700 text-base font-light italic leading-relaxed">
-                                We combine architectural precision with the luxury of direct-from-source Eshkha marble, creating spaces that aren't just lived in, but celebrated.
+                                We provide high-quality marble sheets and surface materials sourced directly from reliable suppliers, ensuring durability, style, and competitive pricing.
                             </p>
                         </div>
 

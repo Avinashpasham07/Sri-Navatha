@@ -16,17 +16,61 @@ const Testimonials = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const reviews = [
-        { name: 'R. Krishna Prasad', role: 'Home Owner', initial: 'RK', text: "The turnaround time was incredible. We got our dream villa interiors exactly as envisioned with zero stress." },
-        { name: 'Sravani Devi', role: 'Architect', initial: 'SD', text: "Their marble sheet quality is unmatched in Andhra. Highly recommend for any premium interior projects." },
-        { name: 'Amar Nath', role: 'Business Owner', initial: 'AN', text: "Best business pricing for luxury materials. They handled our entire office renovation perfectly." },
-        { name: 'Vinay Kumar', role: 'Home Owner', initial: 'VK', text: "Excellent attention to detail. Our living room feels like a 5-star hotel lobby now." },
-        { name: 'Priyanka Reddy', role: 'Interior Enthusiast', initial: 'PR', text: "The team is very professional. They delivered on time and within our budget. Love the finishes!" },
-        { name: 'Kiran Kumar', role: 'Developer', initial: 'KK', text: "Sri Navatha's materials are the best in the market. We've used them for several of our apartment projects." },
-        { name: 'Mahesh Babu', role: 'Client', initial: 'MB', text: "Truly bespoke service. They listened to our needs and created a space that reflects our personality." },
-        { name: 'Anitha Rao', role: 'Home Maker', initial: 'AR', text: "Beautiful designs and very easy to maintain. The marble sheets are a game changer for kitchens." },
-        { name: 'Sanjay Gupta', role: 'Tech Lead', initial: 'SG', text: "Modern, sleek, and highly functional. Their design team is exceptionally talented." }
+        {
+            name: 'R. Krishna Prasad',
+            role: 'Homeowner',
+            initial: 'RK',
+            text: "The marble quality is excellent and the finish looks premium. It completely enhanced the look of our home."
+        },
+        {
+            name: 'Sravani Devi',
+            role: 'Architect',
+            initial: 'SD',
+            text: "Their marble sheet quality is among the best in Andhra Pradesh. Perfect for high-end interior projects."
+        },
+        {
+            name: 'Amar Nath',
+            role: 'Business Owner',
+            initial: 'AN',
+            text: "Best pricing for premium materials. We sourced all our office materials from them without any issues."
+        },
+        {
+            name: 'Vinay Kumar',
+            role: 'Homeowner',
+            initial: 'VK',
+            text: "Wide range of marble options and very helpful guidance in choosing the right material."
+        },
+        {
+            name: 'Priyanka Reddy',
+            role: 'Customer',
+            initial: 'PR',
+            text: "Great variety of marble sheets and very reasonable pricing. The delivery was quick and hassle-free."
+        },
+        {
+            name: 'Kiran Kumar',
+            role: 'Builder',
+            initial: 'KK',
+            text: "Sri Navatha provides consistent quality materials. Perfect for bulk supply in our construction projects."
+        },
+        {
+            name: 'Mahesh Babu',
+            role: 'Customer',
+            initial: 'MB',
+            text: "Reliable supplier with high-quality materials. Very satisfied with the overall experience."
+        },
+        {
+            name: 'Anitha Rao',
+            role: 'Homeowner',
+            initial: 'AR',
+            text: "The marble sheets are durable, stylish, and easy to maintain. Highly recommended."
+        },
+        {
+            name: 'Sanjay Gupta',
+            role: 'Contractor',
+            initial: 'SG',
+            text: "Professional service and consistent supply. A trusted partner for all our material requirements."
+        }
     ];
-
     const totalSlides = Math.ceil(reviews.length / 3);
 
     useEffect(() => {
@@ -49,7 +93,7 @@ const Testimonials = () => {
                         <h2 className="text-5xl md:text-8xl font-black text-white leading-none uppercase tracking-tighter italic whitespace-nowrap">Client<br />Words</h2>
                         <div className="max-w-md">
                             <p className="text-zinc-500 text-base font-light leading-relaxed border-l border-amber-600/30 pl-6 mb-2 italic">
-                                We pride ourselves on the relationships we build with our clients and the lasting impact of our designs.
+                                We take pride in delivering high-quality materials and building long-term trust with our customers.
                             </p>
                         </div>
                     </div>
@@ -57,7 +101,7 @@ const Testimonials = () => {
 
                 {/* Horizontal Carousel Viewport */}
                 <div className="relative overflow-hidden group">
-                    <div 
+                    <div
                         className="flex transition-transform duration-[1500ms] ease-[cubic-bezier(0.85,0,0.15,1)]"
                         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
                     >
@@ -68,7 +112,7 @@ const Testimonials = () => {
                                         className={`group p-10 bg-zinc-900/50 border border-zinc-800 rounded-[2.5rem] transition-all duration-1000 hover:shadow-2xl hover:border-amber-600/20
                                         ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
                                         style={{ transitionDelay: `${idx * 150}ms` }}>
-                                        
+
                                         <div className="flex items-center gap-5 mb-8">
                                             <div className="w-14 h-14 bg-white text-black rounded-2xl flex items-center justify-center font-black text-lg italic shadow-xl group-hover:bg-amber-600 group-hover:text-white transition-colors">
                                                 {r.initial}

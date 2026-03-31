@@ -19,8 +19,8 @@ const deliverables = [
             </svg>
         ),
         t: 'Marbles',
-        price: 'Bespoke Estimates',
-        d: 'Complete interior solutions for villas and apartments. From 2D/3D planning to final finishing.',
+        price: 'CUSTOM QUOTES',
+        d: 'High-quality marble materials available in a variety of finishes and textures for flooring, walls, and interiors.',
     },
     {
         icon: (
@@ -29,8 +29,8 @@ const deliverables = [
             </svg>
         ),
         t: 'Sheets',
-        price: 'Bulk Pricing Available',
-        d: 'Direct-from-source luxury marble sheets. Heat, water and fire resistant wall solutions.',
+        price: 'BULK PRICING',
+        d: 'Premium marble sheets designed for durability, strength, and modern interior applications.',
     },
 
 
@@ -49,24 +49,24 @@ const MarketplaceIntro = () => {
                     <div className={`transition-all duration-1000 ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
                         <div className="inline-flex items-center gap-2 bg-amber-600/10 border border-amber-600/20 px-3 py-1 rounded-full mb-8 shadow-sm">
                             <span className="w-2 h-2 bg-amber-600 rounded-full animate-pulse"></span>
-                            <span className="text-amber-700 text-[10px] font-black uppercase tracking-[0.2em]">Curated Marketplace</span>
+                            <span className="text-amber-700 text-[10px] font-black uppercase tracking-[0.2em]">PREMIUM MATERIALS HUB</span>
                         </div>
                         <h2 className="text-5xl md:text-7xl font-black text-zinc-900 tracking-tighter leading-[0.85] mb-8 uppercase italic transition-all">
                             Your Elite<br />Materials<br />Platform.
                         </h2>
                         <div className="w-16 h-1.5 bg-amber-600 rounded mb-8"></div>
                         <p className="text-zinc-600 text-lg font-light leading-relaxed mb-10 border-l-2 border-amber-600/30 pl-6">
-                            Sri Navatha isn't just a design firm — it's a <strong className="text-zinc-900 font-semibold">centralized marketplace</strong> where homeowners and professionals access premium materials at direct business-level pricing.
+                            Sri Navatha is a trusted supplier of <strong className="text-zinc-900 font-semibold">premium marble and surface materials</strong> We provide high-quality products for homeowners, builders, and businesses at competitive prices.
                         </p>
 
                         <div className="flex flex-wrap gap-4">
                             <a href="tel:+91-9248113699"
                                 className="bg-zinc-900 hover:bg-zinc-800 text-white px-8 py-4 text-[11px] font-black uppercase tracking-widest rounded-xl transition-all shadow-2xl shadow-zinc-900/10 active:scale-95">
-                                Partner With Us
+                                GET QUOTE
                             </a>
                             <a href="#services"
                                 className="border border-zinc-300 hover:border-amber-600 text-zinc-600 hover:text-amber-700 px-8 py-4 text-[11px] font-black uppercase tracking-widest rounded-xl transition-all backdrop-blur-sm">
-                                Explore Platform →
+                                BROWSE MATERIALS →
                             </a>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const MarketplaceIntro = () => {
 
                                 <div className="pt-4 border-t border-zinc-50 flex items-center justify-between">
                                     <span className="text-[9px] font-black text-amber-600 uppercase tracking-widest">
-                                        Learn More →
+                                        VIEW DETAILS →
                                     </span>
                                 </div>
                             </div>
