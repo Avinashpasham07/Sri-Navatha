@@ -16,10 +16,26 @@ const FAQ = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const questions = [
-        { q: "How long does a typical project take?", a: "Residential projects usually take 4-8 weeks from design approval, while commercial hubs vary by scale. We pride ourselves on the quickest turnkey delivery in Vijayawada." },
-        { q: "What is the cost of consultation?", a: "We offer a complimentary initial site visit and verbal consultation. Detailed 3D mapping and material selection are part of our premium design packages." },
-        { q: "Are your materials fire and water resistant?", a: "Yes, our Eshkha Marble sheets are specifically engineered for high performance — they are 100% waterproof and fire-resistant." },
-        { q: "Do you handle outstation projects?", a: "Currently, we specialize in luxury projects across Andhra Pradesh, with a major focus on the Vijayawada, Guntur, and Amaravati regions." }
+        {
+            q: "What types of marble sheets do you offer?",
+            a: "We provide a wide range of premium marble sheets including glossy, matte, textured, and designer finishes suitable for walls, flooring, and interiors."
+        },
+        {
+            q: "Do you offer bulk pricing for builders or contractors?",
+            a: "Yes, we offer competitive bulk pricing for builders, contractors, and commercial projects across Andhra Pradesh."
+        },
+        {
+            q: "Are your marble sheets fire and water resistant?",
+            a: "Yes, our marble sheets are engineered for durability — they are water-resistant, heat-resistant, and ideal for long-term interior applications."
+        },
+        {
+            q: "Do you deliver materials across Andhra Pradesh?",
+            a: "Absolutely. We provide fast and reliable delivery services across Vijayawada, Guntur, Amaravati, and other regions in Andhra Pradesh."
+        },
+        {
+            q: "Can you help in selecting the right materials?",
+            a: "Yes, our experts assist you in choosing the best materials based on your design needs, budget, and project requirements."
+        }
     ];
 
     return (
@@ -34,7 +50,7 @@ const FAQ = () => {
                     <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
                         <h2 className="text-5xl md:text-8xl font-black text-zinc-900 leading-none uppercase tracking-tighter italic">Common<br />Queries</h2>
                         <div className="max-w-md">
-                            <p className="text-zinc-400 text-base font-light leading-relaxed border-l border-amber-600/30 pl-6 mb-2 italic">
+                            <p className="text-zinc-700 text-base font-light leading-relaxed border-l border-amber-600/30 pl-6 mb-2 italic">
                                 Transparency is key to our process. Here are the most frequent questions our clients ask.
                             </p>
                         </div>
@@ -47,10 +63,10 @@ const FAQ = () => {
                         <div className="p-10 bg-zinc-950 rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden">
                             {/* Decorative background circle */}
                             <div className="absolute -top-10 -right-10 w-32 h-32 bg-amber-600/20 blur-3xl rounded-full"></div>
-                            
+
                             <h4 className="text-2xl font-black uppercase tracking-tighter italic mb-4 leading-tight">Still have<br />questions?</h4>
-                            <p className="text-zinc-500 text-sm font-light mb-10 leading-relaxed italic">Our design consultants are ready to assist you personally.</p>
-                            
+                            <p className="text-zinc-500 text-sm font-light mb-10 leading-relaxed italic">Our material experts are ready to help you choose the best options.</p>
+
                             <div className="space-y-4">
                                 <a href="mailto:contact@srinavatha.com" className="flex items-center gap-3 text-amber-500 hover:text-white transition-colors text-[11px] font-black uppercase tracking-widest">
                                     Email Us →

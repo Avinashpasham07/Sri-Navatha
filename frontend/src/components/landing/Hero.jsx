@@ -22,38 +22,38 @@ const Hero = () => {
             <div className={`absolute left-0 top-0 w-1 bg-amber-500 transition-all duration-1000 ease-out ${visible ? 'h-full' : 'h-0'}`}></div>
 
             {/* Content */}
-            <div className="relative z-10 px-12 md:px-20 max-w-5xl pt-20">
+            <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 pt-24 w-full">
                 <div className={`transition-all duration-700 delay-200 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-                    <span className="inline-flex items-center gap-2 text-amber-400 font-bold uppercase tracking-[0.5em] text-[10px] mb-8 block">
+                    <span className="inline-flex items-center gap-2 text-amber-400 font-bold uppercase tracking-[0.3em] text-xs mb-6 block">
                         <span className="w-8 h-px bg-amber-400 inline-block"></span>
-                        Andhra Pradesh's Most Trusted
+                        Andhra Pradesh’s Trusted Marble & Sheet Supplier
                     </span>
                 </div>
 
-                <h1 className={`text-white font-black text-5xl md:text-7xl lg:text-8xl tracking-tight leading-[0.88] mb-8 transition-all duration-700 delay-300 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-                    Transform Your<br />
-                    <span className="text-amber-400">Space</span> Into A<br />
-                    Wonderful Palace.
+                <h1 className={`text-white font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tight leading-[0.88] mb-8 transition-all duration-700 delay-300 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+                    Premium Marble & Sheet<br />
+                    <span className="text-amber-400">Solutions</span> for<br />
+                    Modern Spaces
                 </h1>
 
-                <p className={`text-zinc-300 text-lg font-light leading-relaxed max-w-xl mb-10 transition-all duration-700 delay-500 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-                    Sri Navatha Eshkha Marble sheets &amp; Interior Design — turning houses into homes across Vijayawada &amp; Andhra Pradesh for over 5 years.
+                <p className={`text-zinc-300 text-lg font-light leading-relaxed max-w-lg mb-10 transition-all duration-700 delay-500 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+                    Sri Navatha supplies premium marble sheets and surface materials for residential and commercial projects across Andhra Pradesh. We ensure quality, durability, and competitive pricing for every requirement.
                 </p>
 
-                <div className={`flex flex-wrap gap-4 mb-16 transition-all duration-700 delay-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-                    <a href="#services"
-                        className="group bg-amber-600 hover:bg-amber-500 text-white px-8 py-4 text-[11px] font-black uppercase tracking-[0.3em] shadow-2xl shadow-amber-900/40 transition-all rounded flex items-center gap-3">
-                        Explore Design Solutions
+                <div className={`flex flex-wrap gap-4 mb-8 transition-all duration-700 delay-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+                    <a href="#Materials"
+                        className="group bg-amber-600 hover:bg-amber-500 text-white text-xs px-6 py-3 font-black uppercase tracking-[0.3em] shadow-2xl shadow-amber-900/40 transition-all rounded flex items-center gap-3">
+                        Explore Materials
                         <span className="group-hover:translate-x-1 transition-transform">→</span>
                     </a>
-                    <a href="#portfolio"
-                        className="border border-white/30 hover:border-amber-400 hover:text-amber-400 text-white px-8 py-4 text-[11px] font-black uppercase tracking-[0.3em] transition-all rounded backdrop-blur-sm">
-                        View Portfolio
+                    <a href="#Collections"
+                        className="border border-white/30 hover:border-amber-400 hover:text-amber-400 text-white text-xs px-6 py-3 font-black uppercase tracking-[0.3em] transition-all rounded backdrop-blur-sm">
+                        View Collections
                     </a>
                 </div>
 
                 {/* Floating Stats */}
-                <div className={`flex items-center -mt-13 gap-8 border-t border-white/10 pt-8 transition-all duration-700 delay-[900ms] ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+                <div className={`flex items-center mt-4 gap-5 border-t border-white/5 pt-8 transition-all duration-700 delay-[900ms] ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
                     {[['5+', 'Years Experience'], ['480+', 'Projects Delivered'], ['100%', 'Client Satisfaction']].map(([n, t]) => (
                         <div key={t}>
                             <div className="text-2xl font-black text-white leading-none">{n}</div>

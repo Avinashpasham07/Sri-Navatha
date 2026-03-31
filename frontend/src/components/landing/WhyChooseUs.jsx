@@ -15,7 +15,7 @@ const features = [
     {
         n: '01',
         t: 'On-Time Delivery',
-        d: 'Precise execution timelines with zero compromise. We respect your schedule and deliver every project on the promised date.',
+        d: 'Precise execution timelines with zero compromise.We ensure timely delivery of all materials to keep your project on schedule without delays.',
         icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
                 <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
@@ -25,7 +25,7 @@ const features = [
     {
         n: '02',
         t: 'Superior Quality Materials',
-        d: 'Hand-selected, luxury-grade Eshkha Marble sheets sourced from the finest quarries across India and globally.',
+        d: 'Premium marble and sheet materials sourced from trusted suppliers to ensure quality and durability.',
         icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
@@ -35,7 +35,7 @@ const features = [
     {
         n: '03',
         t: 'Customer Satisfaction Guaranteed',
-        d: 'Measured purely by our clients\' happiness. Our team is dedicated to reflecting your vision and exceeding expectations.',
+        d: 'We focus on customer satisfaction by providing reliable products, transparent pricing, and consistent support.',
         icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
                 <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
                         </h2>
                         <div className="max-w-sm">
                             <p className="text-zinc-100 text-[15px] font-light leading-relaxed border-l border-white/20 pl-6 mb-2">
-                                Sri Navatha Interior Designs — bespoke craftsmen dedicated to excellence, reflecting your personality through premium materials.
+                                Sri Navatha is a trusted supplier of premium marble and sheet materials, delivering quality, durability, and value for residential and commercial projects.
                             </p>
                         </div>
                     </div>

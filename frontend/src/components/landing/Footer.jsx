@@ -15,11 +15,11 @@ const Footer = () => {
                             <img src={logo} alt="Sri Navatha Logo" className="w-12 h-12 object-contain" />
                             <div>
                                 <div className="text-sm font-black uppercase tracking-tight text-white leading-none">Sri Navatha</div>
-                                <div className="text-amber-500 text-[9px] font-bold uppercase tracking-[0.3em] mt-0.5">Interior Design</div>
+                                <div className="text-amber-500 text-[9px] font-bold uppercase tracking-[0.3em] mt-0.5">Marble & Sheet Supplier</div>
                             </div>
                         </div>
                         <p className="text-zinc-500 text-sm font-light leading-relaxed mb-8 italic">
-                            Crafting elite architectural transformations across Andhra Pradesh. Luxury interiors tailored to your vision.
+                            Providing premium marble sheets and surface materials across Andhra Pradesh. Quality, durability, and modern design solutions for every space.
                         </p>
                         <div className="flex gap-4">
                             {['FB', 'IG', 'TW', 'LI'].map(s => (
@@ -34,7 +34,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-[10px] font-black uppercase tracking-[0.5em] text-white mb-10 block">Menu</h4>
                         <ul className="space-y-4">
-                            {['Our Portfolio', 'Our Services', 'Marketplace', 'The Collection', 'Privacy Policy'].map(item => (
+                            {['PRODUCTS', 'COLLECTIONS', 'ABOUT US', 'CONTACT', 'Privacy Policy'].map(item => (
                                 <li key={item}>
                                     <a href="#" className="text-zinc-500 text-[11px] font-black uppercase tracking-widest hover:text-amber-600 transition-colors">
                                         {item}
@@ -77,7 +77,7 @@ const Footer = () => {
                 {/* Bottom Bar with premium centering */}
                 <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
                     <p className="text-zinc-600 text-[9px] font-black uppercase tracking-[0.3em]">
-                        © {new Date().getFullYear()} SRI NAVATHA INTERIOR DESIGN. ALL RIGHTS RESERVED.
+                        © {new Date().getFullYear()} Sri Navatha Marble & Sheet Supplier. ALL RIGHTS RESERVED.
                     </p>
 
                 </div>

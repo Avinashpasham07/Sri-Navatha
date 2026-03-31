@@ -12,7 +12,7 @@ const useInView = () => {
 };
 
 const packages = [
-    { tag: 'Classic Elegance', price: 'Essential Interior', d: 'Perfect for single rooms or office cabins needing refined marble finishes and basic layout planning.', img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faeaa6?auto=format&fit=crop&w=600&q=80' },
+    { tag: 'Classic Elegance', price: 'PREMIUM MARBLE', d: 'Natural stone solutions for flooring, walls, and luxury interiors.', img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faeaa6?auto=format&fit=crop&w=600&q=80' },
     { tag: 'Signature Luxury', price: 'Full Home Concept', d: 'Elite bedroom & living room designs featuring Tundra or Onyx marble sheets with custom lighting concepts.', img: 'https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=600&q=80' },
     { tag: 'Opulent Palace', price: 'Turnkey Renovation', d: 'Full-scale home or commercial transformation from 3D planning to final installation with verified logistics.', img: 'https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=600&auto=format&fit=crop&q=80' },
     { tag: 'Modern Minimal', price: 'Sleek Concept', d: 'Minimalist approach focused on clean lines, functional geometry, and high-end natural materials.', img: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80' },
@@ -48,7 +48,7 @@ const DesignPackages = () => {
                         <h2 className="text-5xl md:text-8xl font-black text-zinc-900 leading-none uppercase tracking-tighter italic whitespace-nowrap">Our<br />Works</h2>
                         <div className="max-w-md">
                             <p className="text-zinc-800 text-[15px] font-medium leading-relaxed border-l border-amber-600 pl-6 mb-2">
-                                We've categorized our expertise into focused consultation tracks to help you choose the best investment for your space.
+                                We offer a wide range of premium marble and sheet materials designed for residential and commercial applications.
                             </p>
                         </div>
                     </div>

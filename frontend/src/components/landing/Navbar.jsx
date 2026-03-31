@@ -16,10 +16,10 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'Home', href: '#' },
-        { name: 'Our Portfolio', href: '#portfolio' },
-        { name: 'Our Services', href: '#services' },
-        { name: 'About Us', href: '#about' },
-        { name: 'Contact Us', href: '#contact' },
+        { name: 'Products', href: '#products' },
+        { name: 'Collections', href: '#collections' },
+        { name: 'About', href: '#about' },
+        { name: 'Contact', href: '#contact' },
     ];
 
     return (
@@ -30,15 +30,15 @@ const Navbar = () => {
                     <img src={logo} alt="Sri Navatha Logo" className="w-14 h-14 object-contain" />
                     <div className="hidden sm:block">
                         <div className={`text-sm font-black uppercase tracking-tight transition-colors ${scrolled ? 'text-zinc-900' : 'text-white'}`}>Sri Navatha</div>
-                        <div className="text-amber-500 text-[9px] font-bold uppercase tracking-[0.3em] -mt-1">Interior Design</div>
+                        <div className="text-amber-500 text-[9px] font-bold uppercase tracking-[0.3em] -mt-1">MARBLE & SHEET SUPPLIER</div>
                     </div>
                 </div>
 
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex items-center gap-10">
                     {navLinks.map((link) => (
-                        <a 
-                            key={link.name} 
+                        <a
+                            key={link.name}
                             href={link.href}
                             className={`text-[10px] font-black uppercase tracking-[0.25em] transition-all hover:text-amber-500 ${scrolled ? 'text-zinc-500' : 'text-zinc-200 hover:text-white'}`}
                         >
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Mobile Toggle */}
-                <button 
+                <button
                     className="lg:hidden p-2 rounded-lg"
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
@@ -64,15 +64,15 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className={`lg:hidden fixed inset-0 bg-white z-[110] flex flex-col items-center justify-center gap-8 transition-transform duration-700 p-10 ${mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
-                <button 
+                <button
                     className="absolute top-8 right-8 text-zinc-900 text-3xl font-light"
                     onClick={() => setMobileMenuOpen(false)}
                 >
                     ✕
                 </button>
                 {navLinks.map((link) => (
-                    <a 
-                        key={link.name} 
+                    <a
+                        key={link.name}
                         href={link.href}
                         className="text-xl font-black uppercase tracking-[.3em] text-zinc-900"
                         onClick={() => setMobileMenuOpen(false)}
@@ -80,8 +80,8 @@ const Navbar = () => {
                         {link.name}
                     </a>
                 ))}
-                <a 
-                    href="tel:+91-9248113699" 
+                <a
+                    href="tel:+91-9248113699"
                     className="bg-amber-600 text-white px-10 py-5 text-sm font-black uppercase tracking-widest rounded-2xl shadow-2xl"
                     onClick={() => setMobileMenuOpen(false)}
                 >

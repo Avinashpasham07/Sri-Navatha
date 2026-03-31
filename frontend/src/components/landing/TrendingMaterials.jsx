@@ -12,10 +12,10 @@ const useInView = () => {
 };
 
 const materials = [
-    { t: 'Tundra Marble', d: 'Cool gray with subtle white veining.', img: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80', badge: 'Popular' },
-    { t: 'Travertino Luxe', d: 'Warm beige textures for organic depth.', img: 'https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=800&q=80', badge: 'New Arrival' },
-    { t: 'Golden Onyx', d: 'Stunning translucent golden patterns.', img: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=800&q=80', badge: 'Limited' },
-    { t: 'Black Statuario', d: 'Deep black with dramatic white contrast.', img: 'https://media.istockphoto.com/id/2197212547/photo/black-carrara-statuario-marble-texture-background-calacatta-glossy-marble-with-grey-streaks.webp?a=1&b=1&s=612x612&w=0&k=20&c=lHRcecRfuZ0H5Dzh46DVo11w58MRKgw-cBS4eNWbqho=', badge: 'Elite' },
+    { t: 'Tundra Marble', d: 'Cool gray with subtle white veining.', img: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80', badge: 'BEST SELLER' },
+    { t: 'Travertino Luxe', d: 'Warm beige textures for organic depth.', img: 'https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=800&q=80', badge: 'NEW COLLECTION' },
+    { t: 'Golden Onyx', d: 'Stunning translucent golden patterns.', img: 'https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=800&q=80', badge: 'LIMITED STOCK' },
+    { t: 'Black Statuario', d: 'Deep black with dramatic white contrast.', img: 'https://media.istockphoto.com/id/2197212547/photo/black-carrara-statuario-marble-texture-background-calacatta-glossy-marble-with-grey-streaks.webp?a=1&b=1&s=612x612&w=0&k=20&c=lHRcecRfuZ0H5Dzh46DVo11w58MRKgw-cBS4eNWbqho=', badge: 'PREMIUM' },
 ];
 
 const TrendingMaterials = () => {
@@ -35,7 +35,7 @@ const TrendingMaterials = () => {
                     <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
                         <h2 className="text-5xl md:text-8xl font-black text-zinc-900 leading-none uppercase tracking-tighter italic">Trending<br />Materials</h2>
                         <p className="text-zinc-600 text-[18px] font-medium leading-relaxed max-w-sm mb-2">
-                            A curated selection of the season's most sought-after marble finishes and bespoke interior materials.
+                            A curated selection of premium marble and sheet materials designed for modern residential and commercial spaces.
                         </p>
                     </div>
                 </div>

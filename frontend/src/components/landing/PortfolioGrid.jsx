@@ -82,7 +82,7 @@ const PortfolioGrid = () => {
                 {/* Header */}
                 <div className="flex flex-col md:flex-row justify-between md:items-end mb-20 animate-fade-in-up">
                     <div className="relative">
-                        <span className="ml-5 text-amber-500 font-bold uppercase tracking-[0.6em] text-[10px] mb-6 block">Our Products Collection</span>
+                        <span className="ml-5 text-amber-500 font-bold uppercase tracking-[0.6em] text-[10px] mb-6 block">PREMIUM MATERIALS COLLECTION</span>
                         <h2 className="text-6xl md:text-8xl font-black text-white leading-[0.85] uppercase tracking-tighter italic whitespace-nowrap">
                             Exclusive<br /><span className="text-zinc-600 ">Products</span>
                         </h2>
@@ -90,7 +90,7 @@ const PortfolioGrid = () => {
 
                     <a href="#marketplace"
                         className="group/btn relative inline-flex items-center gap-6 bg-white hover:bg-amber-500 text-black px-10 py-5 text-[11px] font-black uppercase tracking-[0.3em] rounded-2xl transition-all shadow-2xl active:scale-95 whitespace-nowrap overflow-hidden mt-10 md:mt-0">
-                        <span className="relative z-10 transition-colors duration-500 group-hover/btn:text-black font-black">View All Products</span>
+                        <span className="relative z-10 transition-colors duration-500 group-hover/btn:text-black font-black">View All Materials</span>
                         <span className="relative z-10 text-xl transition-transform duration-500 group-hover/btn:translate-x-2">→</span>
                     </a>
                 </div>
